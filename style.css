@@ -29,9 +29,15 @@ body{
 .one{
     grid-area: one;
     border-radius: 10px;
+    background:rgb(29, 32, 74);
 }
-.one.profile{
-    background: rgb(28, 28, 147);
+.profile{
+    padding: 20px;
+    border-radius: 10px;
+    background:rgb(86, 70, 232);
+}
+.profile .img1{
+    border-radius: 20%;
 }
 .two{
     grid-area: two;
@@ -39,7 +45,7 @@ body{
     border-radius: 10px;
 }
 .two .lead-img{
-    background: wheat;
+    background:rgb(252, 138, 99);
     border-radius: 10px;
 }
 .three{
@@ -48,11 +54,16 @@ body{
     border-radius: 10px;
 }
 .three .lead-img{
-    background: teal;
+    background:#55C0E3;
+    border-radius: 10px;
 }
 .four{
     grid-area: four;
     background-color:  rgb(11, 11, 43);
+    border-radius: 10px;
+}
+.four .lead-img{
+    background:rgb(252, 93, 124);
     border-radius: 10px;
 }
 .five{
@@ -60,14 +71,27 @@ body{
     background-color:  rgb(11, 11, 43);
     border-radius: 10px;
 }
+.five .lead-img{
+    background:rgb(74, 205, 129);
+    border-radius: 10px;
+}
 .six{
     grid-area: six;
     background-color:  rgb(11, 11, 43);
     border-radius: 10px;
 }
+.six .lead-img{
+    
+	background:rgb(113, 53, 207);
+    border-radius: 10px;
+}
 .seven{
     grid-area: seven;
     background-color:  rgb(11, 11, 43);
+    border-radius: 10px;
+}
+.seven .lead-img{
+    background:rgb(239, 197, 90);
     border-radius: 10px;
 }
 .combine{
@@ -78,6 +102,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 image{
     border-radius: 10%;
@@ -90,6 +115,14 @@ image{
 .content-sec{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content:center;
+    align-items: stretch;
+    padding: 20px;
+}
+.content-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 30px;
 }
