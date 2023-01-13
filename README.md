@@ -1,6 +1,7 @@
 # Frontend Mentor - Time tracking dashboard
 
 ![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+My final ![Screenshot_20230113_111659](https://user-images.githubusercontent.com/122267872/212271980-5678eb3a-241c-45a4-8ce9-64b2de10c8bf.png)
 
 ## Welcome! 👋
 
